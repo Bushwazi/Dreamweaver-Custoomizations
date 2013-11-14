@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Border Radius" description="" preview="code" type="block"><insertText location="beforeSelection"><![CDATA[-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

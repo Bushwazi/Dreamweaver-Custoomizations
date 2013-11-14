@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Absolute Center" description="" preview="code" type="block"><insertText location="beforeSelection"><![CDATA[margin: auto;
+position: absolute;
+top: 0;left: 0;bottom: 0;right: 0;
+]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

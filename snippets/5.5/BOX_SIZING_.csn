@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="BOX SIZING_" description="" preview="code" type="block"><insertText location="beforeSelection"><![CDATA[-moz-box-sizing: content-box;	-webkit-box-sizing: content-box;	box-sizing: content-box;]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/*====================----------//////////
+	Client: [CLIENT NAME]
+	Project: [PROJECT NAME]
+	Author: Resolute Digital www.resolute.com
+	Date: [TODAY]
+	Details: ...
+	WIDTHS: [IF MOBILE] Design is 640px wide, that is what all the math is based on: 10px = 1.6%;
+	HEIGHTS: [IF MOBILE] base font size is 14px: 10px = 0.714em;
+\\\\\\\\\\----------====================*/
+
+/*====================----------//////////
+	INDEX
+		I :: RESET
+		II :: Global Layout & Styles
+			A :: General
+			B :: Header
+			C :: Content
+			D :: Footer
+		XXX :: Shortkuts
+		ZZZ :: DEVICE SIZE STYLES
+\\\\\\\\\\----------====================*/
+
+
+/*====================----------//////////
+	I :: RESET  (PROPS TO: http://meyerweb.com/eric/tools/css/reset/)
+\\\\\\\\\\----------====================*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+:focus {
+	outline: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.group:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+/**
+ * Micro Clear Fix
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+/*====================----------//////////
+	II A :: General Site Styles
+\\\\\\\\\\----------====================*/
+
+/*====================----------//////////
+	II B :: Header Styles
+\\\\\\\\\\----------====================*/
+
+/*====================----------//////////
+	II C :: Content Styles
+\\\\\\\\\\----------====================*/
+
+/*====================----------//////////
+	II D :: Footer Styles
+\\\\\\\\\\----------====================*/
+
+/*====================----------//////////
+	XXX :: ShortKuts
+\\\\\\\\\\----------====================*/
+
+
+/*--------------------===============//////////
+	ZZZ:: DEVICE SIZE STYLES
+		* Apple iPhone/iTouch :: 320 x 480
+		* Samsung Galaxy S Phone (smaller) :: 480 x 800
+		* Samsung Galaxy S Phone (larger) :: 480 x 800
+		* Samsung 4G :: 480 x 800
+		* Motorola Droid RAZR :: 540 x 960 (?)
+		* Nook Color :: 600 x 1024
+		* Samsung Galaxy Tab :: 600 x 1024
+		* Amazon Kindle Fire :: 600 x 1024
+		* Apple iPad :: 768 x 1024
+\\\\\\\\\\===============--------------------*/
+@media only screen and (width : 320px) {
+/*--------------------===============//////////
+	VERTICAL::
+		Apple iPhone
+		Apple iTouch
+\\\\\\\\\\===============--------------------*/
+}
+@media only screen and (min-width : 321px) and (max-width : 480px) {
+/*--------------------===============//////////
+	HORIZONTAL::
+		Apple iPhone
+		Apple iTouch
+	VERTICAL::
+		Samsung Galaxy S Phone (smaller)
+		Samsung Galaxy S Phone (larger)
+		Samsung 4G 
+\\\\\\\\\\===============--------------------*/
+}
+@media only screen and (min-width : 481px) and (max-width : 600px) {
+/*--------------------===============////////// 
+	VERTICAL::
+		Motorola Droid RAZR ** 540 **
+		Nook Color
+		Samsung Galaxy Tab
+		Amazon Kindle Fire
+		Android 6" Tablet
+\\\\\\\\\\===============--------------------*/
+}
+@media only screen and (min-width : 601px) and (max-width : 800px) {
+/*--------------------===============//////////
+	HORIZONTAL::
+		Samsung Galaxy S Phone (smaller)
+		Samsung Galaxy S Phone (larger)
+		Samsung 4G
+	VERTICAL::
+		Apple iPad ** 768 **
+\\\\\\\\\\===============--------------------*/
+}
+@media only screen and (min-width : 801px) and (max-width : 854px) {
+/*--------------------===============//////////
+	HORIZONTAL::
+		Samsung Android ...
+\\\\\\\\\\===============--------------------*/
+}
+@media only screen and (min-width : 855px) and (max-width : 1024px) {
+/*--------------------===============//////////
+	HORIZONTAL::
+		Android 6" Tablet
+\\\\\\\\\\===============--------------------*/
+}
+@media only screen and (min-width : 1025px) and (max-width : 1280px) {
+/*--------------------===============//////////
+	HORIZONTAL::
+		Apple iPad
+\\\\\\\\\\===============--------------------*/
+}
+@media only screen and (min-width : 1281px) {
+/*--------------------===============//////////
+	HORIZONTAL::
+		Samsung Android Big Tablet
+\\\\\\\\\\===============--------------------*/
+}

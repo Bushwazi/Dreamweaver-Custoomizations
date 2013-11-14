@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Zend HTML" description="" preview="code" type="block"><insertText location="beforeSelection"><![CDATA[HTML:
+jq      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+cc:ie8  <!--[if gte IE 8]><![endif]-->
+cc:ie9  <!--[if gte IE 9]><![endif]-->
+
+CSS:
+@md     @-moz-document url-prefix() {}Expand Abbreviation             Ctrl+Cmd+=Wrap with Abbreviation          Ctrl+HRe_flect CSS Value              Ctrl+RBalance Tag Outward             Alt+[Balance Tag Inward              Alt+]Next Edit Point                 Ctrl+Alt+RightPrevious Edit Point             Ctrl+Alt+LeftGo to Matching Pair             Alt+/Select Next Item                Alt+RightSelect Previous Item            Alt+LeftInsert Formatted Newline        Ctrl+EnterSelect Line                     Ctrl+KMerge Lines                     Ctrl+\Toggle Comment                  Ctrl+/Split/Join Tag                  Ctrl+Shift+\Rename Tag                      Ctrl+Shift+BRemove Tag                      Alt+-Evaluate Math Expression        Alt+=Increment number by 1           Ctrl+UpDecrement number by 1           Ctrl+DownIncrement number by 10          Ctrl+Alt+UpDecrement number by 10          Ctrl+Alt+DownIncrement number by 0.1         Alt+UpDecrement number by 0.1         Alt+Down]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

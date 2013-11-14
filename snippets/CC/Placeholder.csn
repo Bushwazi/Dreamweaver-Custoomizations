@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Placeholder" description="" preview="code" type="block"><insertText location="beforeSelection"><![CDATA[::-webkit-input-placeholder {
+   color:#000;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color:#000;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color:#000;
+}
+:-ms-input-placeholder {  
+   color:#000;
+}/* they need to be seperate lines because if a browser doesn't understand one page, it cancels them all */]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

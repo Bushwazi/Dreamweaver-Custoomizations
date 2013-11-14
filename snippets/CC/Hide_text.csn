@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Hide text" description="" preview="code" type="block"><insertText location="beforeSelection"><![CDATA[	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
